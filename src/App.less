@@ -1,0 +1,74 @@
+@import '~antd/dist/antd.less';
+
+@font-face {
+  font-family: 'Acrom-Regular';  
+  src: url('./fonts/Acrom-Regular.woff') format('woff');  
+  src: url('./fonts/Acrom-Regular.woff2') format('woff2'); 
+  font-style: normal;  
+}
+
+body {
+  margin: 8px;
+  overflow-x:hidden;
+  font-family: Acrom-Regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  text-align: center;
+}
+
+
+
+.menu__antd {
+  color: #ED5992;
+  border-bottom: 2px solid #E4E7ED;
+}
+
+.header {
+  width: 1400px;
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  & img {
+    width: 122px;
+    height: 30px;
+    margin-right: 178px;
+  }
+}
+.navbar {
+  flex-grow: 1;
+  & ul {
+   line-height: 30px; 
+  }  
+}
+.card-list__wrapper {
+ width: 1395px;
+ margin: 0 auto;
+ padding: 0 12.5px; 
+
+ display: flex;
+ flex-wrap: wrap;
+}
+.card-image {
+  width: 249px;
+  height: 188px;
+  margin: 17.5px 12.5px;
+  border-radius: 6px;
+  object-fit: cover;
+  box-shadow: -10px 12px 20px -10px #a5a5a5;
+  box-sizing: border-box;  
+}
+
+.pagination__wrapper {
+  margin: 60px auto;
+}
