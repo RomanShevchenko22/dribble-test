@@ -1,18 +1,14 @@
-import React, { Component } from 'react';
-import Navbar from './Navbar/Navbar';
-import Logo from './Logo/Logo';
-import LoginBtn from './Button/Button';
+import React from 'react';
+import Navbar from './Navbar';
+import Logo from './Logo';
+import LoginBtn from './Button';
 
-class Header extends Component {
-	render() {	
-		return (
-			<header className="header">
-				<Logo />
-				<Navbar />
-				<LoginBtn />
-			</header>	
-		)
-	}
-}
-
-export default Header;
+export default function Header() {
+	return (
+		<header className="header">
+			<Logo />
+			<Navbar />
+			<LoginBtn />
+		</header>	
+	);
+};

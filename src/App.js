@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.less';
 import Header from './components/Header/Header';
-import CardListWrapper from './components/CardList/CardListWrapper';
-
-
+import CardArea from './components/CardList/CardArea';
 
 function App() {
   return (     
       <div className="container">
         <Header />
-        <CardListWrapper />
+        <CardArea />
       </div>
   );
 }

@@ -1,8 +1,7 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+
 export const Popular = () => {
 	return (
-		<Fragment>
-			<span>Popular</span>
-		</Fragment>
+		<span>Popular</span>
 	)
-}
+};
